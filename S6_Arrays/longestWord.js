@@ -13,7 +13,7 @@
 // The longest length using a largestTemp variable for the initial longest variable
 // And filtering through the array.
 
-// Regular Expressions: [a-z] for characters, [0-9] for numbers, + for the space bar,
+// Regular Expressions: [a-z] for characters, [0-9] for numbers, + for the spaces,
 // and g for not stopping after the first letter, and i for not caring about upper or lower
 // cases
 
