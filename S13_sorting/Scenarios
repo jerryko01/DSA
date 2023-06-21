@@ -1,0 +1,20 @@
+#1 Sort 10 Schools around your house by distance: 
+Insertion Sort (Fast on small data, easy to code, space complexity of O(1))
+
+#2 eBay sorts listings by the current Bid amount:
+Radix or counting sort (Dollar to a 100. Numbers with fixed length of Integers to beat O(n log(n)) time)
+
+#3 Sort scores on ESPN:
+Quick Sort (Most efficient in memory and due to the diversity of the scores, very difficult to get the worst case scenario)
+
+#4 Massive database (can't fit all into memory) needs to sort through past year's user data:
+Merge Sort (Not going to be sorting in memory because of the massive database, so stability in Time Complexity leads to Merge Sort)
+
+#5 Almost sorted Udemy review data needs to update and add 2 new reviews:
+Insertion Sort (The data might be huge with a lot of reviews, but they are almost sorted and just need to add 2 new forms of data)
+
+#6 Temperature Records for the past 50 years in Canada:
+Radix or Counting sort if they are all Integers. Quick Sort is there are decimals
+
+#7 Large user name database needs to be sorted. Very Random Data:
+Merge sort if we have a lot of memory. Quick Sort if I'm not too worried about the worst case and to save memory
